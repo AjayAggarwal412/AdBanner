@@ -1,4 +1,3 @@
-// components/AdBanner.tsx
 import React, { useState } from "react";
 import { Box, Text, Heading, Button, Image } from "@chakra-ui/react";
 import { EditIcon } from "@chakra-ui/icons";
@@ -8,8 +7,8 @@ interface AdBannerProps {
   title: string;
   description: string;
   cta: string;
-  background: string; // Background template image URL
-  image: string; // Image URL
+  background: string;
+  image: string;
   shape?: "circle" | "rounded" | "ellipse" | "square";
 }
 
@@ -46,7 +45,7 @@ const AdBanner: React.FC<AdBannerProps> = ({
       width="400px"
       minHeight="280px"
       display="flex"
-      flexDirection="row" // Arrange elements in a row
+      flexDirection="row"
       color="black"
       overflow="hidden"
       boxShadow="md"
@@ -60,8 +59,8 @@ const AdBanner: React.FC<AdBannerProps> = ({
         bg={`url(${background})`}
         backgroundSize="cover"
         backgroundPosition="center"
-        opacity="0.5" // Reduce opacity of the background image
-        zIndex="-1" // Place background behind content
+        opacity="0.5"
+        zIndex="-1"
       />
       <Box
         position="absolute"
@@ -104,9 +103,9 @@ const AdBanner: React.FC<AdBannerProps> = ({
         alignItems="flex-end"
       >
         <Image
-          src={image} // Use the image URL
+          src={image}
           alt="Ad image"
-          boxSize="200px" // Adjust the size of the image as needed
+          boxSize="200px"
           objectFit="cover"
           borderRadius={
             shape === "circle"

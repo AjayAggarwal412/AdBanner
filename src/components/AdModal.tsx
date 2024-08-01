@@ -100,11 +100,7 @@ const AdModal: React.FC<AdModalProps> = ({
         </ModalBody>
         <ModalFooter>
           <Stack spacing={4} width="100%">
-            <Button
-              onClick={handleSave}
-              width="100%" // Full width for Done button
-              colorScheme="blue"
-            >
+            <Button onClick={handleSave} width="100%" colorScheme="blue">
               Done
             </Button>
             <a

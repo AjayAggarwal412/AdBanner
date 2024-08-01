@@ -1,8 +1,7 @@
-// pages/index.tsx
 import React from "react";
 import AdBanner from "../components/AdBanner";
-import { Box, Grid, Heading } from "@chakra-ui/react";
-import ads from "../ads.json"; // Import the JSON data
+import { Box, Grid } from "@chakra-ui/react";
+import ads from "../ads.json";
 
 const Home: React.FC = () => {
   return (
