@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Boost Your Leads",
+    "description": "This is the first ad description.",
+    "cta": "Learn More",
+    "background": "/images/bg4.jpg",
+    "image": "/images/img1.jpg"
+  },
+  {
+    "title": "Boost Your Leads",
+    "description": "This is the second ad description.",
+    "cta": "Learn More",
+    "background": "/images/bg8.avif",
+    "image": "/images/img2.webp"
+  },
+  {
+    "title": "Boost Your Leads",
+    "description": "This is the third ad description.",
+    "cta": "Learn More",
+    "background": "/images/bg6.webp",
+    "image": "/images/img3.avif"
+  },
+  {
+    "title": "Boost Your Leads",
+    "description": "This is the fourth ad description.",
+    "cta": "Learn More",
+    "background": "/images/bg7.avif",
+    "image": "/images/img4.webp"
+  },
+  {
+    "title": "Boost Your Leads",
+    "description": "This is the fifth ad description.",
+    "cta": "Learn More",
+    "background": "/images/bg5.jpg",
+    "image": "/images/img5.jpg"
+  },
+  {
+    "title": "Boost Your Leads",
+    "description": "This is the sixth ad description.",
+    "cta": "Learn More",
+    "background": "/images/bg2.png",
+    "image": "/images/img6.webp"
+  }
+]
