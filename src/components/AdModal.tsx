@@ -103,10 +103,7 @@ const AdModal: React.FC<AdModalProps> = ({
             <Button onClick={handleSave} width="100%" colorScheme="blue">
               Done
             </Button>
-            <a
-              href={initialImage}
-              style={{ display: "flex", justifyContent: "center" }}
-            >
+            <a href="#" style={{ display: "flex", justifyContent: "center" }}>
               Download
             </a>
           </Stack>
